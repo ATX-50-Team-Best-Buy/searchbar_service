@@ -103,6 +103,21 @@
   color: white;
 }
 
+.footerContainer {
+  position:absolute;
+   bottom:0;
+   width: 100%;
+}
+
+.footer-bar {
+  background-color: #0046be;
+
+}
+
+.lowerCenterFooter {
+  background-color: #f4f6f9;
+}
+
 
 
 
