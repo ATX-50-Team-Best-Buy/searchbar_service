@@ -23,59 +23,67 @@ const Footer = (props) => {
         </div>
       </div>
       <div className="lowerCenterFooter">
-        <div className="footerLists">
-          <div className="col1">
-            <h3>My Best Buy</h3>
-            <ul className="footerList">
-              <li>View Points & Certifications</li>
-              <li>Member Offers</li>
-              <li>Sign in or Create Account</li>
-            </ul>
-            <h3>Credit Cards</h3>
-            <ul className="footerList">
-              <li>Make a Payment at Citibank</li>
-              <li>Check Balance at Citibank</li>
-              <li>Credit Card Offers</li>
-              <li>Apply Now</li>
-            </ul>
-          </div>
-          <div className="col2">
-            <h3>Orders & Returns</h3>
+        <div className="lowerCenterFooterContents">
+          <div className="footerLists">
+            <div className="col1">
+              <h3 className="colHeading
+              ">My Best Buy</h3>
               <ul className="footerList">
-                <li>Order Status</li>
-                <li>Shipping, Delivery & Store Pickup</li>
-                <li>Return & Exchange Promise</li>
-                <li>Price Match Guarantee</li>
+                <li>View Points & Certifications</li>
+                <li>Member Offers</li>
+                <li>Sign in or Create Account</li>
               </ul>
-              <h3>Lease to Own</h3>
+              <h3 className="colHeading
+              ">Credit Cards</h3>
               <ul className="footerList">
+                <li>Make a Payment at Citibank</li>
+                <li>Check Balance at Citibank</li>
+                <li>Credit Card Offers</li>
                 <li>Apply Now</li>
               </ul>
-          </div>
-          <div className="col3">
-            <h3>Support & Services </h3>
+            </div>
+            <div className="col2">
+              <h3 className="colHeading
+              ">Orders & Returns</h3>
+                <ul className="footerList">
+                  <li>Order Status</li>
+                  <li>Shipping, Delivery & Store Pickup</li>
+                  <li>Return & Exchange Promise</li>
+                  <li>Price Match Guarantee</li>
+                </ul>
+                <h3 className="colHeading
+                ">Lease to Own</h3>
+                <ul className="footerList">
+                  <li>Apply Now</li>
+                </ul>
+            </div>
+            <div className="col3">
+              <h3 className="colHeading">Support & Services </h3>
+                <ul className="footerList">
+                  <li>Customer Service</li>
+                  <li>Protection Plans</li>
+                  <li>Schedule a Service</li>
+                  <li>Trade-In Program</li>
+                  <li>Product Recalls</li>
+                </ul>
+            </div>
+            <div className="col4">
+              <h3 className="colHeading
+              ">Partnership</h3>
               <ul className="footerList">
-                <li>Customer Service</li>
-                <li>Protection Plans</li>
-                <li>Schedule a Service</li>
-                <li>Trade-In Program</li>
-                <li>Product Recalls</li>
+                <li>Affiliate Program</li>
+                <li>Developers</li>
+                <li>Best Buy Education</li>
+                <li>Best Buy for Business</li>
+                <li>Advertise with Us</li>
               </ul>
-          </div>
-          <div className="col4">
-            <h3>Partnership</h3>
-            <ul className="footerList">
-              <li>Affiliate Program</li>
-              <li>Developers</li>
-              <li>Best Buy Education</li>
-              <li>Best Buy for Business</li>
-              <li>Advertise with Us</li>
-            </ul>
-            <h3>International Sites</h3>
-            <ul className="footerList">
-              <li>Best Buy Mexico</li>
-              <li>Best Buy Canada</li>
-            </ul>
+              <h3 className="colHeading
+              ">International Sites</h3>
+              <ul className="footerList">
+                <li>Best Buy Mexico</li>
+                <li>Best Buy Canada</li>
+              </ul>
+            </div>
           </div>
         </div>
         <hr />
