@@ -14,7 +14,7 @@ const App = () => {
 
   //should pull mock data and store in state as an array
   useEffect(() => {
-    axios.get(`/products`)
+    axios.get(`http://ec2-52-15-228-126.us-east-2.compute.amazonaws.com/products`)
     .then(res => {
       setOptions(res.data)
     })
@@ -33,7 +33,7 @@ const App = () => {
 
     let query = searchText
 
-    axios.get(`/products/${query}`)
+    axios.get(`http://ec2-52-15-228-126.us-east-2.compute.amazonaws.com/products/${query}`)
       .then(res => {
         setSearchResults(res.data);
       })
