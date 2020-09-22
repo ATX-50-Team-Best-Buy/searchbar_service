@@ -1,5 +1,4 @@
 # searchbar_service
-# Best Buy Clone
 
 ## About Best Buy Clone
 Best Buy Clone is a web application designed to mimic the functionatliy and looks of the Best Buy website.
@@ -41,6 +40,10 @@ This Application was built by a team of three Full Stack Software Engineers from
       <td><a href="https://webpack.js.org/">Webpack</a></td>
       <td><a href="https://babeljs.io/">Babel</a></td>
       <td><a href="https://www.npmjs.com/">NPM</a></td>
+    </tr>
+ <tr>
+      <td class="subheading">Deployment</td>
+      <td><a href="https://aws.amazon.com/ec2/">AWS EC2</a></td>
     </tr>
 </table>
 
