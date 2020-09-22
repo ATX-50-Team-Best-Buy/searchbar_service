@@ -18,7 +18,7 @@ This Application was built by a team of three Full Stack Software Engineers from
 
 
 ## Tech Stack 
-*MyGamestocks* was built primarily with ReactJS and Material UI on the front end and Node/Express on the backend. Other key technologies used are listed below: 
+*Best Buy Clone* was built primarily with ReactJS and Material UI on the front end and Node/Express on the backend. Other key technologies used are listed below: 
 
 ### Technologies
 
@@ -26,7 +26,7 @@ This Application was built by a team of three Full Stack Software Engineers from
   <tr>
     <td class="subheading">Frontend</td>
     <td><a href="https://reactjs.org/">React</a></td>
-    <td><a href="https://getbootstrap.com/">Bootstrap</a></td>
+    <td><a href="https://material-ui.com/">Material UI</a></td>
   </tr>
   <tr rowspan="2">
     <td class="subheading">Backend</td>
