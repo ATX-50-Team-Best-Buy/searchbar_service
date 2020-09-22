@@ -6,7 +6,7 @@ Best Buy Clone is a web application designed to mimic the functionatliy and look
 This Application was built by a team of three Full Stack Software Engineers from the Hack Reactor, Austin, 50th Cohort (HRATX50).
 
 ## Demo
-![screenshot-localhost-3003-1600795019648](https://user-images.githubusercontent.com/65248215/93916274-e4c80e00-fcce-11ea-9638-619386baafbe.png)
+![screenshot-localhost-3003-1600796432702](https://user-images.githubusercontent.com/65248215/93917685-ebf01b80-fcd0-11ea-88e5-077834c63edc.png)
 
 
 
