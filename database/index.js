@@ -1,13 +1,13 @@
-const mongoose = require('mongoose');
-const mock = require('./mockData');
-mongoose.connect('mongodb://localhost/bestbuy', {useNewUrlParser: true});
+const mongoose = require("mongoose");
+const mock = require("./mockData");
+mongoose.connect("mongodb://localhost/bestbuy", { useNewUrlParser: true });
 
 const db = mongoose.connection;
 
-db.on('error', console.error.bind(console, 'connection error:'));
+db.on("error", console.error.bind(console, "connection error:"));
 
-db.once('open', () => {
-  console.log('Hello from the Database!');
+db.once("open", () => {
+  console.log("Hello from the Database!");
 
   const productSchema = mongoose.Schema({
     uniqueID: Number,
@@ -26,13 +26,13 @@ db.once('open', () => {
     images: [],
     peopleAlsoBought: [],
     peopleAlsoViewed: [],
-    recentlyViewed: Boolean
-  })
+    recentlyViewed: Boolean,
+  });
 
   // enable text index in schema for search query
-  productSchema.index({ name: 'text'})
+  productSchema.index({ name: "text" });
 
-  let Product = mongoose.model('Product', productSchema);
+  let Product = mongoose.model("Product", productSchema);
 
   let saveToDatabase = (model) => {
     let product = new Product({
@@ -50,30 +50,30 @@ db.once('open', () => {
       reviews: [],
       questions: {
         question: model.questions.question,
-        answer: model.questions.answer
+        answer: model.questions.answer,
       },
       images: model.images,
       peopleAlsoBought: [],
       peopleAlsoViewed: [],
-      recentlyViewed: model.recentlyViewed
+      recentlyViewed: model.recentlyViewed,
     });
     // product.save();
-    // console.log(`Created ${model.uniqueID}`)
-  }
+    // console.log(`Created ${model.uniqueID}`);
+  };
 
   // let promiseData = mock.data.map(async (product) => {
-  //   return product
-  // })
+  //   return product;
+  // });
 
   // Promise.all(promiseData)
-  // .then((products) => {
-  //   products.map((product) => {
-  //     saveToDatabase(product);
+  //   .then((products) => {
+  //     products.map((product) => {
+  //       saveToDatabase(product);
+  //     });
   //   })
-  // })
-  // .catch(err => {
-  //   console.log(`Error saving product to database: ${err}`)
-  // })
+  //   .catch((err) => {
+  //     console.log(`Error saving product to database: ${err}`);
+  //   });
 
   module.exports.Product = Product;
-})
+});
