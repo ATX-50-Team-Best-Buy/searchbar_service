@@ -9,6 +9,7 @@ This Application was built by a team of three Full Stack Software Engineers from
 ![SearchBestBuy](https://user-images.githubusercontent.com/65248215/94040318-67fc6900-fd8e-11ea-97d7-24f1140dfada.gif)
 
 ## Product View Demo
+![Product View Demo](https://user-images.githubusercontent.com/65248215/94040732-e8bb6500-fd8e-11ea-9e5a-745a02aed610.gif)
 
 ## Page Overview
 ![screenshot-localhost-3003-1600796432702](https://user-images.githubusercontent.com/65248215/93917685-ebf01b80-fcd0-11ea-88e5-077834c63edc.png)
